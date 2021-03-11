@@ -1,0 +1,36 @@
+/* main styles */
+* {
+    font-family: 'Segoe UI';
+}
+
+body {
+    width: 230px;
+    height: auto;
+    cursor: default;
+}
+
+footer {
+    font-weight: 700;
+    display: block;
+    position: relative;
+    top: 80%;
+    color: #444;
+    cursor: default;
+}
+
+footer span {
+    cursor: pointer;
+}
+
+footer span:hover {
+    color: rgb(167, 9, 40);
+    transition: color 0.35s ease-in-out;
+}
+
+svg{
+    display: inline-block;
+    position: absolute;
+    padding-bottom: 3px;
+    left: 80%;
+    cursor: pointer;
+}

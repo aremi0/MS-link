@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "MS-link",
+  "version": "2.0",
+  "description": "Extension that scan and download a text file with all Stream videos link",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "MS-link",
+    "default_icon": "img/idea.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/idea.png",
+    "32": "img/idea.png",
+    "48": "img/idea.png",
+    "128": "img/idea.png"
+  }
+}
